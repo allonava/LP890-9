@@ -76,3 +76,4 @@ Brandt A. L. Gaches, Dept. of Space, Earth & Environment, Chalmers University of
 
 Michael Kent A. Olohoy, Department of Earth and Space Sciences, Rizal Technological University, Boni Ave, Mandaluyong, 1550 Metro Manila, Philippines
 
+Allona Vazan, Astrophysics Research Center (ARCO), Department of Natural Sciences, The Open University of Israel
