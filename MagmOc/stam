@@ -1,0 +1,27 @@
+2c2
+< sName	        LP8909                   # Body's name
+---
+> sName	        LP8909                # Body's name
+9,15c9,14
+< dMass         0.08                       # Mass, solar masses
+< dAge          5e6
+< 
+< # STELLAR Parameters
+< sStellarModel baraffe                     # Stellar evolution model: `baraffe` or `none`
+< dSatXUVFrac   1.e-3                       # Saturation level of the XUV luminosity
+< dSatXUVTime   -7			  # End of XUV-Saturation (- in Gyr, default .1Gyr)
+---
+> sStellarModel             baraffe     # stellar model grid
+> dMass                     0.118        # stellar mass [msun]
+> dAge                      5e6         # age at which stellar grids are initialized [yr] (this is a fixed parameter)
+> dSatXUVFrac               0.00120226        # fsat = initial Lxuv / Lbol [dimensionless ratio]
+> dSatXUVTime               3e9        # tsat = saturation time [yr]
+> dXUVBeta                  1.18       # beta = exponential decay rate [dimensionless]
+20c19
+< dMaxLockDiff    0.01
+---
+> dMaxLockDiff    0.1
+22c21
+< saTidePerts     c        # Body name(s) of tidal perturbers
+---
+> saTidePerts     c         # Body name(s) of tidal perturbers
